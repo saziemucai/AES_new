@@ -60,7 +60,6 @@ a:active {
 
    
 <body bgcolor="#550303">
-<!-- Save for Web Slices (main.psd) -->
 <form id="loginForm" name="loginForm" method="post" action="login-exec.php">
 <table id="Table_01" width="1330" border="0" cellpadding="0" cellspacing="0" align="center">
 	<tr>
@@ -137,6 +136,5 @@ a:active {
 	</tr>
 </table>
 </form>
-<!-- End Save for Web Slices -->
 </body>
 </html>
