@@ -28,6 +28,7 @@
   
 <head>
 <title>Login</title>
+<link href="regmodule.css" rel="stylesheet" type="text/css" />
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 </head>
 
@@ -74,7 +75,7 @@ a:active {
 		<td>
 			<img id="index_04" src="images/index_04.gif" width="450" height="39" alt="" /></td>
 		<td background="images/index_05.gif" width="379" height="39" alt="" />
-		&nbsp;&nbsp;&nbsp;&nbsp;<input name="username" type="text" class="textfield" id="username" size="50" /></td>
+		&nbsp;&nbsp;&nbsp;&nbsp;<input name="username" type="text" class="textfield" id="username" size="55" /></td>
 		<td>
 			<img id="index_06" src="images/index_06.gif" width="501" height="39" alt="" /></td>
 	</tr>
@@ -91,7 +92,7 @@ a:active {
 			<img id="index_10" src="images/index_10.gif" width="450" height="36" alt="" /></td>
 		<td background="images/index_11.gif" width="379" height="35" alt="" />
 		
-		&nbsp;&nbsp;&nbsp;&nbsp;<input name="password" type="password" class="textfield" id="password" size="50"/></td>
+		&nbsp;&nbsp;&nbsp;&nbsp;<input name="password" type="password" class="textfield" id="password" size="55"/></td>
 		<td>
 			<img id="index_12" src="images/index_12.gif" width="501" height="36" alt="" /></td>
 	</tr>
@@ -105,7 +106,7 @@ a:active {
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="#" onclick="document.loginForm.submit()"><font face="Century Gothic" color="#6c6b6b"><b>LOGIN</b></font></a></td></form>
+		<a href="#" onclick="document.loginForm.submit()"><font face="Century Gothic" color="#6c6b6b" size="3"><b>LOGIN</b></font></a></td></form>
 		<td>
 			<img id="index_15" src="images/index_15.gif" width="501" height="52" alt="" /></td>
 	</tr>
@@ -119,9 +120,9 @@ a:active {
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		
 		
-		<a rel="facebox" href="register-form.php"><font face="Century Gothic" color="#550303"><b>Registration</font></a>
+		<a rel="facebox" href="register-form.php"><font face="Century Gothic" color="#550303" size="3"><b>Registration</font></a>
 		<font color="#550303">|</font> 
-		<font face="Century Gothic" color="#550303">Forgot your password?</b></font>
+		<font face="Century Gothic" color="#550303" size="3">Forgot your password?</b></font>
 		</td>
 		<td>
 			<img id="index_18" src="images/index_18.gif" width="501" height="71" alt="" /></td>

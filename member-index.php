@@ -43,7 +43,7 @@ a:active {
 #students
 {
 font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-width:100%;
+width:50%;
 border-collapse:collapse;
 }
 #students td, #students th
@@ -55,7 +55,7 @@ padding:3px 7px 2px 7px;
 #students th
 {
 font-size:1.1em;
-text-align:left;
+text-align:center;
 padding-top:5px;
 padding-bottom:4px;
 background-color:#6495ed;

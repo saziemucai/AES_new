@@ -11,8 +11,8 @@
   
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="regmodule.css" rel="stylesheet" type="text/css" />
 <title>Login Form</title>
-<link href="loginmodule.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 
