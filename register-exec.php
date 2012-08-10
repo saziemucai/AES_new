@@ -82,7 +82,7 @@
 	
 	//Check for duplicate login ID
 	if($username != '') {
-		$qry = "SELECT * FROM students WHERE username='$username'";
+		$qry = "SELECT * FROM members WHERE username='$username'";
 		$result = mysql_query($qry);
 		if($result) {
 			if(mysql_num_rows($result) > 0) {
@@ -105,7 +105,7 @@
 	}
 
 	//Create INSERT query
-	$qry = "INSERT INTO students(name, idno, courseyr, subject, section, username, password) VALUES('$name','$idno','$courseyr','$subject','$section','$username','".md5($_POST['password'])."')";
+	$qry = "INSERT INTO members(name, idno, courseyr, subject, section, username, password) VALUES('$name','$idno','$courseyr','$subject','$section','$username','".md5($_POST['password'])."')";
 	$result = @mysql_query($qry);
 	
 	//Check whether the query was successful or not

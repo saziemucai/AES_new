@@ -11,21 +11,19 @@ body {
 	border: 1px solid #CCCCCC;
 	padding-left: 1px;
 }
-div {
-	background-image: -moz-linear-gradient(0% 48% 270deg, #9d2e2c, #FFFFFF, #990000 0%);
-	background-image: -webkit-gradient(linear, 0% 48%, 0% 47%, from(#990000), to(#9d2e2c));
-	color: #fff;
-	margin: 0px 0px 7px;
-	padding: 0px 0px 4px;
+h1 {
+	color: #99CC00;
+	margin: 0px 0px 5px;
+	padding: 0px 0px 3px;
 	font: bold 18px Verdana, Arial, Helvetica, sans-serif;
-	border-bottom: 2px dashed #E6E8ED;
+	border-bottom: 1px dashed #E6E8ED;
 }
 a {
-	color: #ffffff;
+	color: #2D3954;
 	font-size: 11px;
 }
 a:hover {
-	color: #000;
+	color: #99CC00;
 }
 .err {
 	color: #FF9900;
