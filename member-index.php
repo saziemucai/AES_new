@@ -8,9 +8,69 @@
 <title>Member Index</title>
 <link href="loginmodule.css" rel="stylesheet" type="text/css" />
 </head>
+
+<style type="text/css">
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover font{
+	color: #fff;
+}
+a:hover img {
+	color: #fff;
+	}
+a:active {
+	text-decoration: none;
+}
+
+</style>
+
+<body background="gray.jpg">
+<div>Welcome <?php echo $_SESSION['SESS_NAME'];?> 
+<a href="logout.php">Logout</a></div>
+</br>
+<font color = "white" size = "3"> 
+<?php echo $_SESSION['SESS_NAME'];?></br> 
+<?php echo $_SESSION['SESS_COURSEYR'];?></br> 
+<?php echo $_SESSION['SESS_SUBJECT'];?></br>
+</br>
+
+<style type="text/css">
+#students
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:100%;
+border-collapse:collapse;
+}
+#students td, #students th
+{
+font-size:1em;
+border:1px solid #98bf21;
+padding:3px 7px 2px 7px;
+}
+#students th
+{
+font-size:1.1em;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#6495ed;
+color:#ffffff;
+}
+#students tr.alt td
+{
+color:#000000;
+background-color:#9999cc;
+}
+</style>
+</head>
+
 <body>
-<h1>Welcome <?php echo $_SESSION['SESS_NAME'];?></h1>
-<a href="member-profile.php">My Profile</a> | <a href="logout.php">Logout</a>
-<p> </p>
+<table id="students">
+
 </body>
 </html>
