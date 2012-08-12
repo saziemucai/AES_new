@@ -99,71 +99,47 @@ padding:1em;
 <div class="container">
 
 <div class="header"><h1 class="header">Answer Key</h1></div>
-<form name="answerkeyForm" action="answer_encoder-exec.php" method="post" >
-<div class="right">
-	<div><p name="number" id="number1">1. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-			<input type="radio" name="1" id="answer1" value="A" /> A
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="1" id="answer1" value="B" /> B
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="1" id="answer1" value="C" /> C
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="1" id="answer1" value="D" /> D</p></div>
-	
-	<div><p name="number" id="number2">2. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-			<input type="radio" name="2" id="answer2" value="A" /> A
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="2" id="answer2" value="B" /> B
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="2" id="answer2" value="C" /> C
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="2" id="answer2" value="D" /> D</p></div>
-	
-	<div><p name="number" id="number3">3. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-			<input type="radio" name="3" id="answer3" value="A" /> A
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="3" id="answer3" value="B" /> B
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="3" id="answer3" value="C" /> C
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="3" id="answer3" value="D" /> D</p></div>
-			
-	<div><p name="number" id="number4">4. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-			<input type="radio" name="4" id="answer4" value="A" /> A
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="4" id="answer4" value="B" /> B
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="4" id="answer4" value="C" /> C
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="4" id="answer4" value="D" /> D</p></div>
-			
-	<div><p name="number" id="number5">5. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-			<input type="radio" name="5" id="answer5" value="A" /> A
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="5" id="answer5" value="B" /> B
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="5" id="answer5" value="C" /> C
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="5" id="answer5" value="D" /> D</p></div>
-			
-	<div><p name="number" id="number6">6. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-			<input type="radio" name="6" id="answer6" value="A" /> A
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="6" id="answer6" value="B" /> B
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="6" id="answer6" value="C" /> C
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="6" id="answer6" value="D" /> D</p></div>
-			
-	<div><p name="number" id="number7">7. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-			<input type="radio" name="7" id="answer7" value="A" /> A
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="7" id="answer7" value="B" /> B
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="7" id="answer7" value="C" /> C
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="7" id="answer7" value="D" /> D</p></div>
-			
-	<div><p name="number" id="number8">8. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-			<input type="radio" name="8" id="answer8" value="A" /> A
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="8" id="answer8" value="B" /> B
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="8" id="answer8" value="C" /> C
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="8" id="answer8" value="D" /> D</p></div>
-			
-	<div><p name="number" id="number9">9. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-			<input type="radio" name="9" id="answer9" value="A" /> A
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="9" id="answer9" value="B" /> B
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="9" id="answer9" value="C" /> C
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="9" id="answer9" value="D" /> D</p></div>
-			
-	<div><p name="number" id="number10">10. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-			<input type="radio" name="10" id="answer10" value="A" /> A
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="10" id="answer10" value="B" /> B
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="10" id="answer10" value="C" /> C
-			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="10" id="answer10" value="D" /> D</p></div>
-			
-</div>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-<input type="submit" value="Save">
+<form id="answerkeyForm" action="answer_encoder-exec.php" method="post">
+<?php
+$check_answerkey = mysql_query("select * from prelim where id='$prelim_id'");
+$count = 0;
+$sr = 1;
+if(mysql_num_rows($check_answerkey)==0)
+{
+    echo "No Answer Keys Found For Prelim";
+}
+else
+{
+    while($row_answerkey = mysql_fetch_array($check_answerkey))
+    {
+        $id = $row_answerkey["prelim_id"];
+        $number = $row_question["number"];
+        $option1 = $row_question["option1"];
+        $option2 = $row_question["option2"];
+        $option3 = $row_question["option3"];
+        $option4 = $row_question["option4"];
+        $answer = $row_question["answer"];
+
+        echo '<div class="answerkey_box">
+                <p>'.$sr.'. '.$number.'</p>
+                <div style="margin:10px 0 0 10px;">
+
+                   
+                    <input type="text" value="'.$number.'" name="number[]" />
+                    <input type="hidden" value="'.$answer.'" name="true_answer[]" />
+                    <input type="radio" class="answers" name="given_answer['.$count.']" value="A" />&nbsp;'.$option1.'<br/>
+                    <input type="radio" class="answers" name="given_answer['.$count.']" value="B" />&nbsp;'.$option2.'<br/>
+                    <input type="radio" class="answers" name="given_answer['.$count.']" value="C" />&nbsp;'.$option3.'<br/>
+                    <input type="radio" class="answers" name="given_answer['.$count.']" value="D" />&nbsp;'.$option4.'<br/>
+                    <input checked="checked" type="radio" class="answers" name="given_answer['.$count.']" value="NONE" style="display:none;" />
+                </div>
+        </div>';
+        $count++;
+        $sr++;
+    }
+}
+?>
+    <button class="stdbtn btn_black" style="opacity: 1;" type="button" onclick="submit_exam();">Submit</button>
 </form>
 </body>
 </html>
