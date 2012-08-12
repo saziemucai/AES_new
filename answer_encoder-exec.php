@@ -5,21 +5,13 @@
 	//Include database connection details
 	require_once('config1.php');
 	
+	$answer_id = $number;
 	
-	$number1 = $_POST['number1'];
-	$number2 = $_POST['number2'];
-	$number3 = $_POST['number3'];
-	$number4 = $_POST['number4'];
-	$number5 = $_POST['number5'];
-	$number6 = $_POST['number6'];
-	$number7 = $_POST['number7'];
-	$number8 = $_POST['number8'];
-	$number9 = $_POST['number9'];
-	$number10 = $_POST['number10'];
-	$answer = $__POST['answer'];
+	$number = $_POST['answer_letter'];
+	
 	
 	//Create INSERT query
-	$qry = "INSERT INTO answerkey(number, answer) VALUES('$number','$answer')";
+	$qry = "INSERT INTO answer_prelim(answer_letter) VALUES('$answer_letter)";
 	$result = @mysql_query($qry);
 	
 	//Check whether the query was successful or not
