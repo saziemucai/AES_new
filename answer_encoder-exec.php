@@ -15,11 +15,29 @@
 	$number8 = $_GET['number8'];
 	$number9 = $_GET['number9'];
 	$number10 = $_GET['number10'];
-	$answer = $_GET['answer'];
+	$answer1 = $_GET['answer1'];
+	$answer1 = $_GET['answer2'];
+	$answer1 = $_GET['answer3'];
+	$answer1 = $_GET['answer4'];
+	$answer1 = $_GET['answer5'];
+	$answer1 = $_GET['answer6'];
+	$answer1 = $_GET['answer7'];
+	$answer1 = $_GET['answer8'];
+	$answer1 = $_GET['answer9'];
+	$answer1 = $_GET['answer10'];
 	
 	//Create INSERT query
-	$qry = "INSERT INTO answerkey(number, answer) VALUES('$number','$answer')";
-	$result = @mysql_query($qry);
+	$qry1 = "INSERT INTO answerkey VALUES(1, '$number1','$answer1')";
+	$qry2 = "INSERT INTO answerkey VALUES(2, '$number2','$answer2')";
+	$qry3 = "INSERT INTO answerkey VALUES(3, '$number3','$answer3')";
+	$qry4 = "INSERT INTO answerkey VALUES(4, '$number4','$answer4')";
+	$qry5 = "INSERT INTO answerkey VALUES(5, '$number5','$answer5')";
+	$qry6 = "INSERT INTO answerkey VALUES(6, '$number6','$answer6')";
+	$qry7 = "INSERT INTO answerkey VALUES(7, '$number7','$answer7')";
+	$qry8 = "INSERT INTO answerkey VALUES(8, '$number8','$answer8')";
+	$qry9 = "INSERT INTO answerkey VALUES(9, '$number9','$answer9')";
+	$qry10 = "INSERT INTO answerkey VALUES(10, '$number10','$answer10')";
+	$result = @mysql_query($qry|$qry2|$qry3|$qry4|$qry5|$qry6|$qry7|$qry8|$qry9|$qry10);
 	
 	//Check whether the query was successful or not
 	if($result) {
