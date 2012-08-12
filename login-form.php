@@ -5,17 +5,7 @@
   <script src="lib/jquery.js" type="text/javascript"></script>
   <script src="src-main/facebox.js" type="text/javascript"></script>
   <script type="text/javascript">
-	function checkpoint() {
-		if (document.write.loginForm.username == "") {
-			alert("Please enter valid username.") }
-		if (document.write.loginForm.password == "") {
-			alert("Please enter valid password.") }
-		if ((document.write.loginForm.username == "") && (document.write.loginForm.password == "")) {
-			alert("All fields required!")
-			}
-	
-	
-	}
+
     jQuery(document).ready(function($) {
       $('a[rel*=facebox]').facebox({
         loadingImage : 'src/loading.gif',
@@ -105,7 +95,7 @@ a:active {
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="#" onclick="document.loginForm.submit()"><font face="Century Gothic" color="#6c6b6b"><b>LOGIN</b></font></a></td></form>
+		<a href="#" onclick="checkpoint()"><font face="Century Gothic" color="#6c6b6b"><b>LOGIN</b></font></a></td></form>
 		<td>
 			<img id="index_15" src="images/index_15.gif" width="501" height="52" alt="" /></td>
 	</tr>
