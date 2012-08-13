@@ -68,6 +68,8 @@
 			$_SESSION['SESS_NAME'] = $member['name'];
 			$_SESSION['SESS_IDNO'] = $member['idno'];
 			$_SESSION['SESS_COURSEYR'] = $member['courseyr'];
+			$_SESSION['SESS_SUBJECT'] = $member['subject'];
+			$_SESSION['SESS_SECTION'] = $member['section'];
 		
 			session_write_close();
 			header("location: member-index.php");
