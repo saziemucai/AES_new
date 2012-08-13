@@ -33,7 +33,7 @@ a:active {
 <font size="3">
 <i><a href="classrecord.php">CLASS RECORD</a> | <a href="answerkey.php">ANSWER KEY</a> | <a href="examchecker.php">CHECK EXAMS</a></i>
 </font>
-<p>Section:</p >
+
 <style type="text/css">
 #section
 {
@@ -65,6 +65,7 @@ background-color:#9999cc;
 </head>
 
 <body>
+<p>Section:</p >
 <table id="section">
 <tr>
 <th>NAME</th>
