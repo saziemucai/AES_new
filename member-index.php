@@ -30,14 +30,12 @@ a:active {
 </style>
 
 <body background="gray.jpg">
-<div>Welcome <?php echo $_SESSION['SESS_NAME'];?> 
-<p align="right"><a href="settings.php">Settings</a> | <a href="logout.php">Logout</a></p></div>
-</br>
+<div>Welcome <?php echo $_SESSION['SESS_NAME'];?> <p align="right"><a href="settings.php">Settings</a> | <a href="logout.php">Logout</a></p></div>
+<hr></hr>
 <font color = "black" size = "3"> 
 <?php echo $_SESSION['SESS_NAME'];?></br> 
 <?php echo $_SESSION['SESS_COURSEYR'];?></br> 
 <?php echo $_SESSION['SESS_SUBJECT'];?></br>
-</br>
 
 <style type="text/css">
 #students
