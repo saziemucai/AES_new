@@ -33,7 +33,7 @@ a:active {
 <div>Welcome <?php echo $_SESSION['SESS_NAME'];?> 
 <a href="logout.php">Logout</a></div>
 </br>
-<font color = "white" size = "3"> 
+<font color = "black" size = "3"> 
 <?php echo $_SESSION['SESS_NAME'];?></br> 
 <?php echo $_SESSION['SESS_COURSEYR'];?></br> 
 <?php echo $_SESSION['SESS_SUBJECT'];?></br>
