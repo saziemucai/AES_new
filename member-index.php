@@ -1,8 +1,19 @@
 <?php
 	require_once('auth.php');
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body
+{
+background-color:#000000;
+}
+</style>
+</head>
+
+<body>
+<font color ="gray" size="2">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>Member Index</title>
@@ -30,19 +41,68 @@ a:active {
 </style>
 
 <body background="gray.jpg">
-<div>Welcome <?php echo $_SESSION['SESS_NAME'];?> <p align="right"><a href="add.php">Settings</a> | <a href="logout.php">Logout</a></p></div>
+<i>welcome <?php echo $_SESSION['SESS_NAME'];?>...</i> <p align="right"> | <a href="add.php"> Settings</a> | <a href="logout.php">Logout</a></p>	
 <hr></hr>
-<font color = "black" size = "3"> 
-<?php echo $_SESSION['SESS_PHOTO'];?></br>
-<?php echo $_SESSION['SESS_NAME'];?></br> 
-<?php echo $_SESSION['SESS_COURSEYR'];?></br> 
-<?php echo $_SESSION['SESS_SUBJECT'];?></br>
+
+<style type="text/css">
+div.container
+{
+width:100%;
+margin:0px;
+border:0px;
+line-height:150%;
+}
+div.header,div.footer
+{
+padding:0.5em;
+color:white;
+background-color:white;
+clear:left; 
+}
+h1.header
+{
+padding:0;
+margin:0;
+}
+div.left
+{
+float:left;
+width:120px;
+margin:0;
+padding:1em;
+}
+div.right
+{
+margin-right;180px;
+border-right:1px solid gray;
+padding:1em;
+}
+div.content
+{
+margin-left:0px;
+border-left:0px;
+padding:1em;
+}
+</style>
+
+<div class="left">
+<img src="pic.png" width="100" height="100" />
+
+</div>
+
+<div class="content">
+<h3><font color = "gray"><?php echo $_SESSION['SESS_NAME'];?></font></h3>
+<font color = "gray" size="3"><?php echo $_SESSION['SESS_COURSEYR'];?> </br>
+<?php echo $_SESSION['SESS_SUBJECT'];?> - <?php echo $_SESSION['SESS_SECTION'];?> </br>
+</font>
+</div>
+<br>
 
 <style type="text/css">
 #students
 {
 font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-width:100%;
+width:85%;
 border-collapse:collapse;
 }
 #students td, #students th
@@ -54,8 +114,8 @@ padding:3px 7px 2px 7px;
 #students th
 {
 font-size:1.1em;
-text-align:left;
-padding-top:5px;
+text-align:center;
+padding-top:3px;
 padding-bottom:4px;
 background-color:#6495ed;
 color:#ffffff;
@@ -67,13 +127,15 @@ background-color:#9999cc;
 }
 </style>
 </head>
-
+<center>
 <body>
 <table id="students">
 <tr>
-<th>PRELIM</th>
+<th>PRELIM</th>	
 <th>MIDTERM</th>
 <th>FINALS</th>
 </tr>
+</font>
+</center>
 </body>
 </html>
