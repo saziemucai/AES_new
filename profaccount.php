@@ -29,7 +29,6 @@ a:active {
 <body background="gray.jpg">
 <font size="5"><b>CSc 101 - Computer Programming I </b></font>
 <hr>
-<p align="right"><a href="logout.php">Logout</p></a>
 </hr>
 <style type="text/css">
 
