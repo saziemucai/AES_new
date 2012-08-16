@@ -99,48 +99,45 @@ padding:1em;
 <div class="container">
 
 <div class="header"><h1 class="header">Answer Key</h1></div>
-<form id="answerkeyForm" action="answer_encoder-exec.php" method="post">
-<?php
-$check_answerkey = mysql_query("select * from prelim where id='$prelim_id'");
-$count = 0;
-$sr = 1;
-if(mysql_num_rows($check_answerkey)==0)
-{
-    echo "No Answer Keys Found For Prelim";
-}
-else
-{
-    while($row_answerkey = mysql_fetch_array($check_answerkey))
-    {
-        $id = $row_answerkey["prelim_id"];
-        $number = $row_question["number"];
-        $option1 = $row_question["option1"];
-        $option2 = $row_question["option2"];
-        $option3 = $row_question["option3"];
-        $option4 = $row_question["option4"];
-        $answer = $row_question["answer"];
 
-        echo '<div class="answerkey_box">
-                <p>'.$sr.'. '.$number.'</p>
-                <div style="margin:10px 0 0 10px;">
+    <form name="answerkeyForm" action="answer_encoder-exec.php" method="post" enctype="multipart/form-data">
+		
+      <strong name="number1">1. </strong><br>
+        <input type="radio" name="agree1" value="A"<?php if ($agree1=='A') { echo ' checked'; } ?>>A &nbsp;&nbsp;&nbsp;
+		<input type="radio" name="agree1" value="B"<?php if ($agree1=='B') { echo ' checked'; } ?>>B &nbsp;&nbsp;&nbsp;
+		<input type="radio" name="agree1" value="C"<?php if ($agree1=='C') { echo ' checked'; } ?>>C &nbsp;&nbsp;&nbsp;
+        <input type="radio" name="agree1" value="D"<?php if ($agree1=='D') { echo ' checked'; } ?>>D<br>
+		
+      <strong name="number2">2. </strong><br>
+        <input type="radio" name="agree2" value="A"<?php if ($agree1=='A') { echo ' checked'; } ?>>A &nbsp;&nbsp;&nbsp;
+		<input type="radio" name="agree2" value="B"<?php if ($agree2=='B') { echo ' checked'; } ?>>B &nbsp;&nbsp;&nbsp;
+		<input type="radio" name="agree2" value="C"<?php if ($agree2=='C') { echo ' checked'; } ?>>C &nbsp;&nbsp;&nbsp;
+        <input type="radio" name="agree2" value="D"<?php if ($agree2=='D') { echo ' checked'; } ?>>D<br>
+		
+	  <strong name="number3">3. </strong><br>
+        <input type="radio" name="agree3" value="A"<?php if ($agree3=='A') { echo ' checked'; } ?>>A &nbsp;&nbsp;&nbsp;
+		<input type="radio" name="agree3" value="B"<?php if ($agree3=='B') { echo ' checked'; } ?>>B &nbsp;&nbsp;&nbsp;
+		<input type="radio" name="agree3" value="C"<?php if ($agree3=='C') { echo ' checked'; } ?>>C &nbsp;&nbsp;&nbsp;
+        <input type="radio" name="agree3" value="D"<?php if ($agree3=='D') { echo ' checked'; } ?>>D<br>
+		
+	  <strong name="number4">4. </strong><br>
+        <input type="radio" name="agree4" value="A"<?php if ($agree4=='A') { echo ' checked'; } ?>>A &nbsp;&nbsp;&nbsp;
+		<input type="radio" name="agree4" value="B"<?php if ($agree4=='B') { echo ' checked'; } ?>>B &nbsp;&nbsp;&nbsp;
+		<input type="radio" name="agree4" value="C"<?php if ($agree4=='C') { echo ' checked'; } ?>>C &nbsp;&nbsp;&nbsp;
+        <input type="radio" name="agree4" value="D"<?php if ($agree4=='D') { echo ' checked'; } ?>>D<br>
+		
+	  <strong name="number5">5. </strong><br>
+        <input type="radio" name="agree5" value="A"<?php if ($agree5=='A') { echo ' checked'; } ?>>A &nbsp;&nbsp;&nbsp;
+		<input type="radio" name="agree5" value="B"<?php if ($agree5=='B') { echo ' checked'; } ?>>B &nbsp;&nbsp;&nbsp;
+		<input type="radio" name="agree5" value="C"<?php if ($agree5=='C') { echo ' checked'; } ?>>C &nbsp;&nbsp;&nbsp;
+        <input type="radio" name="agree5" value="D"<?php if ($agree5=='D') { echo ' checked'; } ?>>D<br>
+		
+		
 
-                   
-                    <input type="text" value="'.$number.'" name="number[]" />
-                    <input type="hidden" value="'.$answer.'" name="true_answer[]" />
-                    <input type="radio" class="answers" name="given_answer['.$count.']" value="A" />&nbsp;'.$option1.'<br/>
-                    <input type="radio" class="answers" name="given_answer['.$count.']" value="B" />&nbsp;'.$option2.'<br/>
-                    <input type="radio" class="answers" name="given_answer['.$count.']" value="C" />&nbsp;'.$option3.'<br/>
-                    <input type="radio" class="answers" name="given_answer['.$count.']" value="D" />&nbsp;'.$option4.'<br/>
-                    <input checked="checked" type="radio" class="answers" name="given_answer['.$count.']" value="NONE" style="display:none;" />
-                </div>
-        </div>';
-        $count++;
-        $sr++;
-    }
-}
-?>
-    <button class="stdbtn btn_black" style="opacity: 1;" type="button" onclick="submit_exam();">Submit</button>
-</form>
+      <input type="submit" name="submit" value="Submit">
+
+    </form> 
+
 </body>
 </html>
 		

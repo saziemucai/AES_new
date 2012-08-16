@@ -30,20 +30,74 @@ a:active {
 </style>
 
 <body background="gray.jpg">
-<div>Welcome <?php echo $_SESSION['SESS_NAME'];?> 
-<a href="logout.php">Logout</a></div>
-</br>
-<font color = "white" size = "3"> 
-<?php echo $_SESSION['SESS_NAME'];?></br> 
-<?php echo $_SESSION['SESS_COURSEYR'];?></br> 
-<?php echo $_SESSION['SESS_SUBJECT'];?></br>
-</br>
+
+<div>Welcome <?php echo $_SESSION['SESS_NAME'];?> <p align="right"><a href="add.php">Settings</a> | <a href="logout.php">Logout</a></p></div>
+<hr></hr>
+<font color = "black" size = "3"> 
+
+
+
+
+<style type="text/css">
+div.container
+{
+width:100%;
+margin:0px;
+border:0px;
+line-height:150%;
+}
+div.header,div.footer
+{
+padding:0.5em;
+color:white;
+background-color:white;
+clear:left;
+}
+h1.header
+{
+padding:0;
+margin:0;
+}
+div.left
+{
+float:left;
+width:180px;
+margin:0;
+padding:1em;
+}
+div.right
+{
+margin-right;180px;
+border-right:1px solid gray;
+padding:1em;
+}
+div.content
+{
+margin-left:325px;
+border-left:1px solid gray;
+padding:1em;
+}
+</style>
+
+<div class="left">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="pic.png">
+
+</div>
+
+<div class="content">
+<h3><font color = "gray"><?php echo $_SESSION['SESS_NAME'];?></font></h3>
+<font color = "gray" size="3"><?php echo $_SESSION['SESS_COURSEYR'];?> </br>
+<?php echo $_SESSION['SESS_SUBJECT'];?> - <?php echo $_SESSION['SESS_SECTION'];?> </br>
+</font>
+</div>
+
 
 <style type="text/css">
 #students
 {
 font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-width:50%;
+width:100%;
 border-collapse:collapse;
 }
 #students td, #students th
@@ -55,7 +109,7 @@ padding:3px 7px 2px 7px;
 #students th
 {
 font-size:1.1em;
-text-align:center;
+text-align:left;
 padding-top:5px;
 padding-bottom:4px;
 background-color:#6495ed;
