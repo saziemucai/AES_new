@@ -14,47 +14,52 @@
 <title>Login Form</title>
 <link href="loginmodule.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
 
 <form id="regForm" name="regForm" method="post" action="register-exec.php">
   <table width="300" border="0" align="center" cellpadding="2" cellspacing="0">
-    <tr>
+
+<div class="reg">
+  <tr>
       <th>Name</th>
-      <td><input name="name" type="text" class="textfield" id="name" /></td>
+      <td><input name="name" type="text"  id="name" /></td>
     </tr>
     <tr>
       <th>ID No.</th>
-      <td><input name="idno" type="text" class="textfield" id="idno" /></td>
+      <td><input name="idno" type="text"  id="idno" /></td>
     </tr>
 	<tr>
       <th>Course/Yr.</th>
-      <td><input name="courseyr" type="text" class="textfield" id="courseyr" /></td>
+      <td><input name="courseyr" type="text"  id="courseyr" /></td>
     </tr>
 	<tr>
       <th>Subject</th>
-      <td><input name="subject" type="text" class="textfield" id="subject" /></td>
+      <td><input name="subject" type="text"  id="subject" /></td>
     </tr>
 	<tr>
       <th>Section</th>
-      <td><input name="section" type="text" class="textfield" id="section" /></td>
+      <td><input name="section" type="text"  id="section" /></td>
     </tr>
     <tr>
       <th width="124">Username</th>
-      <td width="168"><input name="username" type="text" class="textfield" id="username" /></td>
+      <td width="168"><input name="username" type="text"  id="username" /></td>
     </tr>
     <tr>
       <th>Password</th>
-      <td><input name="password" type="password" class="textfield" id="password" /></td>
+      <td><input name="password" type="password"  id="password" /></td>
     </tr>
     <tr>
       <th>Confirm Password </th>
-      <td><input name="cpassword" type="password" class="textfield" id="cpassword" /></td>
+      <td><input name="cpassword" type="password"  id="cpassword" /></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
       <td><input type="submit" name="Submit" value="Register" /></td>
     </tr>
+	</div>
   </table>
 </form>
 </body>
+
 </html>

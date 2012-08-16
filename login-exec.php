@@ -55,7 +55,7 @@
 	}
 	
 	//Create query
-	$qry="SELECT * FROM members WHERE username='$username' AND password='$password'";
+	$qry="SELECT * FROM students WHERE username='$username' AND password='".md5($_POST['password'])."'";
 	$result=mysql_query($qry);
 	
 	//Check whether the query was successful or not
@@ -66,9 +66,14 @@
 			$member = mysql_fetch_assoc($result);
 			$_SESSION['SESS_MEMBER_ID'] = $member['member_id'];
 			$_SESSION['SESS_NAME'] = $member['name'];
+			$_SESSION['SESS_IDNO'] = $member['idno'];
+			$_SESSION['SESS_COURSEYR'] = $member['courseyr'];
+			$_SESSION['SESS_SUBJECT'] = $member['subject'];
+			$_SESSION['SESS_SECTION'] = $member['section'];
 		
 			session_write_close();
-			header("location: member-index.php");
+			header("location: student-profile.php");
+			header("location: student-profile.php");
 			exit();
 		}else {
 			//Login failed
