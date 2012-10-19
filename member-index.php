@@ -30,6 +30,7 @@ a:active {
 </style>
 
 <body background="gray.jpg">
+<<<<<<< HEAD
 
 <div>Welcome <?php echo $_SESSION['SESS_NAME'];?> <p align="right"><a href="add.php">Settings</a> | <a href="logout.php">Logout</a></p></div>
 <hr></hr>
@@ -92,6 +93,16 @@ padding:1em;
 </font>
 </div>
 
+=======
+<div>Welcome <?php echo $_SESSION['SESS_NAME'];?> 
+<a href="logout.php">Logout</a></div>
+</br>
+<font color = "white" size = "3"> 
+<?php echo $_SESSION['SESS_NAME'];?></br> 
+<?php echo $_SESSION['SESS_COURSEYR'];?></br> 
+<?php echo $_SESSION['SESS_SUBJECT'];?></br>
+</br>
+>>>>>>> 96a6c0fb4083214844064966561eb6932c9df5be
 
 <style type="text/css">
 #students

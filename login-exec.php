@@ -65,11 +65,20 @@
 			session_regenerate_id();
 			$member = mysql_fetch_assoc($result);
 			$_SESSION['SESS_MEMBER_ID'] = $member['member_id'];
+<<<<<<< HEAD
 			
 		
+=======
+			$_SESSION['SESS_NAME'] = $member['name'];
+			$_SESSION['SESS_IDNO'] = $member['idno'];
+			$_SESSION['SESS_COURSEYR'] = $member['courseyr'];
+			$_SESSION['SESS_SUBJECT'] = $member['subject'];
+			$_SESSION['SESS_SECTION'] = $member['section'];
+>>>>>>> 96a6c0fb4083214844064966561eb6932c9df5be
 		
 			session_write_close();
-			header("location: member-index.php");
+			header("location: student-profile.php");
+			header("location: student-profile.php");
 			exit();
 		}else {
 			//Login failed

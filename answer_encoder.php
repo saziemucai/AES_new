@@ -99,6 +99,7 @@ padding:1em;
 <div class="container">
 
 <div class="header"><h1 class="header">Answer Key</h1></div>
+<<<<<<< HEAD
 
     <form name="answerkeyForm" action="answer_encoder-exec.php" method="post" enctype="multipart/form-data">
 		
@@ -138,6 +139,74 @@ padding:1em;
 
     </form> 
 
+=======
+<form name="answerkeyForm" action="answer_encoder-exec.php" method="post" >
+<div class="right">
+	<div><p name="number" id="number1">1. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+									<input type="radio" name="number1" id="answer" value="A" /> A
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number1" id="answer" value="B" /> B
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number1" id="answer" value="C" /> C
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number1" id="answer" value="D" /> D</p></div>
+	
+	<div><p name="number" id="number2">2. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+									<input type="radio" name="number2" id="answer" value="A" /> A
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number2" id="answer" value="B" /> B
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number2" id="answer" value="C" /> C
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number2" id="answer" value="D" /> D</p></div>
+	
+	<div><p name="number" id="number3">3. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+									<input type="radio" name="number3" id="answer" value="A" /> A
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number3" id="answer" value="B" /> B
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number3" id="answer" value="C" /> C
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number3" id="answer" value="D" /> D</p></div>
+			
+	<div><p name="number" id="number4">4. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+									<input type="radio" name="number4" id="answer" value="A" /> A
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number4" id="answer" value="B" /> B
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number4" id="answer" value="C" /> C
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number4" id="answer" value="D" /> D</p></div>
+			
+	<div><p name="number" id="number5">5. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+									<input type="radio" name="number5" id="answer" value="A" /> A
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number5" id="answer" value="B" /> B
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number5" id="answer" value="C" /> C
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number5" id="answer" value="D" /> D</p></div>
+			
+	<div><p name="number" id="number6">6. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+									<input type="radio" name="number6" id="answer" value="A" /> A
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number6" id="answer" value="B" /> B
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number6" id="answer" value="C" /> C
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number6" id="answer" value="D" /> D</p></div>
+			
+	<div><p name="number" id="number7">7. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+									<input type="radio" name="number7" id="answer" value="A" /> A
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number7" id="answer" value="B" /> B
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number7" id="answer" value="C" /> C
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number7" id="answer" value="D" /> D</p></div>
+			
+	<div><p name="number" id="number8">8. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+									<input type="radio" name="number8" id="answer" value="A" /> A
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number8" id="answer" value="B" /> B
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number8" id="answer" value="C" /> C
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number8" id="answer" value="D" /> D</p></div>
+			
+	<div><p name="number" id="number9">9. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+									<input type="radio" name="number9" id="answer" value="A" /> A
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number9" id="answer" value="B" /> B
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number9" id="answer" value="C" /> C
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number9" id="answer" value="D" /> D</p></div>
+			
+	<div><p name="number" id="number10">10. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+									<input type="radio" name="number10" id="answer" value="A" /> A
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number10" id="answer" value="B" /> B
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number10" id="answer" value="C" /> C
+			&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="number10" id="answer" value="D" /> D</p></div>
+			
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<input type="submit" value="Save">
+</form>
+>>>>>>> 96a6c0fb4083214844064966561eb6932c9df5be
 </body>
 </html>
 		
