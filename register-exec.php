@@ -106,7 +106,11 @@
 
 	//Create INSERT query
 	$qry = "INSERT INTO students(name, idno, courseyr, subject, section, username, password) VALUES('$name','$idno','$courseyr','$subject','$section','$username','".md5($_POST['password'])."')";
+<<<<<<< HEAD
 	$result = mysql_query($qry);
+=======
+	$result = @mysql_query($qry);
+>>>>>>> 301d981ef53d3b1d8819e2de87f244168ad2daf5
 	
 	//Check whether the query was successful or not
 	if($result) {

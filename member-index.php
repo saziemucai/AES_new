@@ -1,8 +1,19 @@
 <?php
 	require_once('auth.php');
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body
+{
+background-color:#000000;
+}
+</style>
+</head>
+
+<body>
+<font color ="gray" size="2">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>Member Index</title>
@@ -31,6 +42,7 @@ a:active {
 
 <body background="gray.jpg">
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <div>Welcome <?php echo $_SESSION['SESS_NAME'];?> <p align="right"><a href="add.php">Settings</a> | <a href="logout.php">Logout</a></p></div>
 <hr></hr>
@@ -38,6 +50,10 @@ a:active {
 
 
 
+=======
+<i>welcome <?php echo $_SESSION['SESS_NAME'];?>...</i> <p align="right"> | <a href="add.php"> Settings</a> | <a href="logout.php">Logout</a></p>	
+<hr></hr>
+>>>>>>> 301d981ef53d3b1d8819e2de87f244168ad2daf5
 
 <style type="text/css">
 div.container
@@ -52,7 +68,11 @@ div.header,div.footer
 padding:0.5em;
 color:white;
 background-color:white;
+<<<<<<< HEAD
 clear:left;
+=======
+clear:left; 
+>>>>>>> 301d981ef53d3b1d8819e2de87f244168ad2daf5
 }
 h1.header
 {
@@ -62,7 +82,11 @@ margin:0;
 div.left
 {
 float:left;
+<<<<<<< HEAD
 width:180px;
+=======
+width:120px;
+>>>>>>> 301d981ef53d3b1d8819e2de87f244168ad2daf5
 margin:0;
 padding:1em;
 }
@@ -74,15 +98,24 @@ padding:1em;
 }
 div.content
 {
+<<<<<<< HEAD
 margin-left:325px;
 border-left:1px solid gray;
+=======
+margin-left:0px;
+border-left:0px;
+>>>>>>> 301d981ef53d3b1d8819e2de87f244168ad2daf5
 padding:1em;
 }
 </style>
 
 <div class="left">
+<<<<<<< HEAD
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="pic.png">
+=======
+<img src="pic.png" width="100" height="100" />
+>>>>>>> 301d981ef53d3b1d8819e2de87f244168ad2daf5
 
 </div>
 
@@ -92,6 +125,7 @@ padding:1em;
 <?php echo $_SESSION['SESS_SUBJECT'];?> - <?php echo $_SESSION['SESS_SECTION'];?> </br>
 </font>
 </div>
+<<<<<<< HEAD
 
 =======
 <div>Welcome <?php echo $_SESSION['SESS_NAME'];?> 
@@ -103,12 +137,15 @@ padding:1em;
 <?php echo $_SESSION['SESS_SUBJECT'];?></br>
 </br>
 >>>>>>> 96a6c0fb4083214844064966561eb6932c9df5be
+=======
+<br>
+>>>>>>> 301d981ef53d3b1d8819e2de87f244168ad2daf5
 
 <style type="text/css">
 #students
 {
 font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-width:100%;
+width:85%;
 border-collapse:collapse;
 }
 #students td, #students th
@@ -120,8 +157,8 @@ padding:3px 7px 2px 7px;
 #students th
 {
 font-size:1.1em;
-text-align:left;
-padding-top:5px;
+text-align:center;
+padding-top:3px;
 padding-bottom:4px;
 background-color:#6495ed;
 color:#ffffff;
@@ -133,13 +170,15 @@ background-color:#9999cc;
 }
 </style>
 </head>
-
+<center>
 <body>
 <table id="students">
 <tr>
-<th>PRELIM</th>
+<th>PRELIM</th>	
 <th>MIDTERM</th>
 <th>FINALS</th>
 </tr>
+</font>
+</center>
 </body>
 </html>

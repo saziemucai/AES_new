@@ -74,7 +74,10 @@
 			$_SESSION['SESS_COURSEYR'] = $member['courseyr'];
 			$_SESSION['SESS_SUBJECT'] = $member['subject'];
 			$_SESSION['SESS_SECTION'] = $member['section'];
+<<<<<<< HEAD
 >>>>>>> 96a6c0fb4083214844064966561eb6932c9df5be
+=======
+>>>>>>> 301d981ef53d3b1d8819e2de87f244168ad2daf5
 		
 			session_write_close();
 			header("location: student-profile.php");
