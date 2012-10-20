@@ -28,30 +28,29 @@
 
 <form id="loginForm" name="loginForm" method="post" action="login-exec.php">
           <div class="box">
-            &nbsp;&nbsp;<font size="5"><b>STUDENT'S LOGIN</b></font>
+            &nbsp;&nbsp;<font size="5"><b></b></font>
+			  
             <div class="bb">
                <span>Username:</span>
                <input type="text" required="required" class="input_text" name="username" id="username"/><br><br>
            
 			 <span>Password:</span>
                <input type="password" required="required" class="input_text" name="password" id="password"/><br><br>
-			     			 
+			     <input type="submit" id="button" class="button" value="LOGIN" style="font: bold 14px Arial" />				 
 			</div>
-			<center><div class="log">Incorrect username or password.</div></center>
-			<br>
-
-             <input type="submit" id="button" class="button" value="LOGIN" style="font: bold 14px Arial" />	
-			 <br>
-			  <br>
-			  
+			
+             
 			 <div class="left">
                <span>Need an account?</span>
 			   <a rel="facebox" href="registration.php"> 
-			   <input type="button" id="button" class="submit" value="Register Here" style="font: bold 14px Arial;"/>
-			   </a>
-			   </div> 
-             		         
-           </div>
+			   <input type="button" id="button" class="submit" value="Register Here" style="font: bold 14px Arial;"/></a>
+			   </div>
+			   
+			   <div class="adminleft">
+			    <a href="teacher-index.php"><b><i><u><font color="#3333FF" size="2">Admin Here</font></u></i></b></a>
+				</div>
+			  
+		   
 </form>
 </body>
 </html>

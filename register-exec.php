@@ -35,7 +35,10 @@
 	//Sanitize the POST values
 	$name = clean($_POST['name']);
 	$idno = clean($_POST['idno']);
-	$courseyr = clean($_POST['courseyr']);
+	$course = clean($_POST['course']);
+	$year = clean($_POST['year']);
+	$sy = clean($_POST['sy']);
+	$sem = clean($_POST['sem']);
 	$subject = clean($_POST['subject']);
 	$section = clean($_POST['section']);
 	$username = clean($_POST['username']);
@@ -51,8 +54,12 @@
 		$errmsg_arr[] = 'ID No. missing';
 		$errflag = true;
 	}
-	if($courseyr == '') {
-		$errmsg_arr[] = 'Course/Yr. missing';
+	if($course == '') {
+		$errmsg_arr[] = 'Course missing';
+		$errflag = true;
+	}
+	if($year == '') {
+		$errmsg_arr[] = 'Year missing';
 		$errflag = true;
 	}
 	if($subject == '') {
@@ -100,21 +107,18 @@
 	if($errflag) {
 		$_SESSION['ERRMSG_ARR'] = $errmsg_arr;
 		session_write_close();
-		header("location: register-form.php");
+		header("location: registration.php");
 		exit();
 	}
 
 	//Create INSERT query
-	$qry = "INSERT INTO students(name, idno, courseyr, subject, section, username, password) VALUES('$name','$idno','$courseyr','$subject','$section','$username','".md5($_POST['password'])."')";
-<<<<<<< HEAD
+	$qry = "INSERT INTO students(name, idno, course, year, sy, sem, subject, section, username, password) VALUES('$name','$idno','$course', '$year', '$sy','$sem','$subject','$section','$username','".md5(
+$_POST['password'])."')";
 	$result = mysql_query($qry);
-=======
-	$result = @mysql_query($qry);
->>>>>>> 301d981ef53d3b1d8819e2de87f244168ad2daf5
 	
 	//Check whether the query was successful or not
 	if($result) {
-		header("location: login-form.php");
+		header("location: index.php");
 		exit();
 	}else {
 		die("Query failed");

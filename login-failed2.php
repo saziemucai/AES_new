@@ -7,7 +7,6 @@
 
 <link href="css/login.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="facebox/facebox.css" media="screen" rel="stylesheet" type="text/css" />
-<link rel='stylesheet' href='css/bootstrap.min.css' />
 
 <script src="lib/jquery.js" type="text/javascript"></script>
 <script src="facebox/facebox.js" type="text/javascript"></script>
@@ -23,34 +22,25 @@
   
   </script>
 
-<body background="images/blue.png"><br>
+<body background="images/blue.png"><br><br>
 <center><br><br><br><br><img src="images/aes.png"></center><br>
 
-<form id="loginForm" name="loginForm" method="post" action="login-exec.php">
+<form id="loginForm" name="loginForm" method="post" action="teacherlogin-exec.php">
           <div class="box">
-            &nbsp;&nbsp;<font size="5"><b>STUDENT'S LOGIN</b></font>
+            &nbsp;&nbsp;<font size="5"><b>TEACHER'S LOGIN</b></font>
             <div class="bb">
                <span>Username:</span>
                <input type="text" required="required" class="input_text" name="username" id="username"/><br><br>
            
 			 <span>Password:</span>
                <input type="password" required="required" class="input_text" name="password" id="password"/><br><br>
-			     			 
+			    		 
 			</div>
+			            
 			<center><div class="log">Incorrect username or password.</div></center>
 			<br>
-
-             <input type="submit" id="button" class="button" value="LOGIN" style="font: bold 14px Arial" />	
-			 <br>
-			  <br>
-			  
-			 <div class="left">
-               <span>Need an account?</span>
-			   <a rel="facebox" href="registration.php"> 
-			   <input type="button" id="button" class="submit" value="Register Here" style="font: bold 14px Arial;"/>
-			   </a>
-			   </div> 
-             		         
+             	 <input type="submit" id="button" class="button" value="LOGIN" style="font: bold 14px Arial" />		
+<br><br>				 
            </div>
 </form>
 </body>

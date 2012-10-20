@@ -50,13 +50,13 @@
 	if($errflag) {
 		$_SESSION['ERRMSG_ARR'] = $errmsg_arr;
 		session_write_close();
-		header("location: index.php");
+		header("location: teacher-index.php");
 		exit();
 	}
 	
 	//Create query
-	$qry = "SELECT * FROM students WHERE username='$username' and password='".md5($_POST['password'])."'";
-	$result = mysql_query($qry);
+	$qry="SELECT * FROM admin WHERE username='$username' and password='$password'";
+	$result=mysql_query($qry);
 	
 	//Check whether the query was successful or not
 	if($result) {
@@ -64,23 +64,15 @@
 			//Login Successful
 			session_regenerate_id();
 			$member = mysql_fetch_assoc($result);
-			$_SESSION['SESS_MEMBER_ID'] = $member['member_id'];
-			$_SESSION['SESS_NAME'] = $member['name'];
-			$_SESSION['SESS_IDNO'] = $member['idno'];
-			$_SESSION['SESS_COURSE'] = $member['course'];
-			$_SESSION['SESS_YEAR'] = $member['year'];
-			$_SESSION['SESS_SY'] = $member['sy'];
-			$_SESSION['SESS_SEM'] = $member['sem'];
-			$_SESSION['SESS_SUBJECT'] = $member['subject'];
-			$_SESSION['SESS_SECTION'] = $member['section'];			
-		
-			session_write_close();
-			header("location: student-profile.php");
-			exit();
+			$_SESSION['SESS_USERNAME'] = $admin['username'];
+			$_SESSION['SESS_NAME'] = $admin['name'];
 			
+			session_write_close();
+			header("location: classrecord.php");
+			exit();
 		}else {
 			//Login failed
-			header("location: login-failed.php");
+			header("location: login-failed2.php");
 			exit();
 		}
 	}else {
